@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "460500128796",
+    "project_id": "banklmsdb",
+    "storage_bucket": "banklmsdb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:460500128796:android:edfe1198598e0214a07bd9",
+        "android_client_info": {
+          "package_name": "com.example.banklms"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "460500128796-qmv3o0f0pno41no0jvhgeqoprgrkuulc.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.banklms",
+            "certificate_hash": "b05cf12b310605ac5adb484994f85229f0ed37ad"
+          }
+        },
+        {
+          "client_id": "460500128796-m6t6lbhnqp76u7r57ilpj9e48qt41upf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzrQnLIklYvzSagHjcrP6OiIR3E_xiBXI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "460500128796-m6t6lbhnqp76u7r57ilpj9e48qt41upf.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

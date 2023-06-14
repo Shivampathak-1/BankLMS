@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/logbg"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="88dp"
+        android:text="Bank Employee Login"
+        android:textColor="@color/black"
+        android:textSize="36dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/bankusername1"
+        android:layout_width="255dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="260dp"
+        android:hint="Enter BankID"
+
+        app:startIconDrawable="@drawable/ic_baseline_person_24"
+        app:startIconTint="@color/black"
+
+        app:boxBackgroundMode="outline"
+        app:boxBackgroundColor="@color/white"
+
+        android:textColorHint="@android:color/darker_gray"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/bankuser1"
+            android:inputType="textEmailSubject"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/bankpass1"
+        android:layout_width="255dp"
+        android:layout_height="60dp"
+
+        android:hint="Enter password"
+
+        android:textColorHint="@android:color/darker_gray"
+        app:boxBackgroundColor="@color/white"
+
+        app:boxBackgroundMode="outline"
+
+        app:endIconMode="password_toggle"
+        app:endIconTint="@color/black"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/bankusername1"
+
+        app:startIconDrawable="@drawable/lock"
+        app:startIconTint="@color/black">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/bankinputpass"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="textPassword" />
+
+    </com.google.android.material.textfield.TextInputLayout>
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="268dp"
+        android:layout_height="47dp"
+        android:layout_marginTop="22dp"
+        android:layout_marginBottom="248dp"
+        android:onClick="Login1"
+        android:text="Login"
+        android:textSize="24dp"
+        android:background="#FBA72C"
+        android:textColor="@color/white"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@+id/bankpass1"
+        app:layout_constraintStart_toStartOf="@+id/bankpass1"
+        app:layout_constraintTop_toBottomOf="@+id/bankpass1" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

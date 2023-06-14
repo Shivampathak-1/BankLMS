@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/loancalcbg"
+    tools:context=".LoanInformation">
+
+    <TextView
+        android:id="@+id/loaninformation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="Loan Information"
+        android:textColor="@color/black"
+        android:textSize="32dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/choosebanktext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="52dp"
+        android:text="Choose Bank"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.129"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/loaninformation" />
+
+    <Spinner
+        android:id="@+id/choosebankinformationspinner"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="40dp"
+        android:background="@android:drawable/btn_dropdown"
+        app:layout_constraintStart_toEndOf="@+id/choosebanktext"
+        app:layout_constraintTop_toBottomOf="@+id/loaninformation" />
+
+    <ImageView
+        android:id="@+id/logoimage"
+        android:layout_width="218dp"
+        android:layout_height="56dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/choosebankinformationspinner"
+        app:layout_constraintHorizontal_bias="0.696"
+        app:layout_constraintStart_toStartOf="@+id/choosebanktext"
+        app:layout_constraintTop_toBottomOf="@+id/choosebankinformationspinner" />
+
+    <TextView
+        android:id="@+id/decription"
+        android:layout_width="355dp"
+        android:layout_height="99dp"
+        android:layout_marginTop="24dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/logoimage"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="@+id/logoimage"
+        app:layout_constraintTop_toBottomOf="@+id/logoimage" />
+
+    <TextView
+        android:id="@+id/Loantypetext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="44dp"
+        android:text="Loan Type"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@+id/decription"
+        app:layout_constraintHorizontal_bias="0.046"
+        app:layout_constraintStart_toStartOf="@+id/decription"
+        app:layout_constraintTop_toBottomOf="@+id/decription" />
+
+    <Spinner
+        android:id="@+id/loaninformationspinner"
+        android:layout_width="170dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="36dp"
+        android:background="@android:drawable/btn_dropdown"
+        app:layout_constraintEnd_toEndOf="@+id/decription"
+        app:layout_constraintHorizontal_bias="0.432"
+        app:layout_constraintStart_toEndOf="@+id/Loantypetext"
+        app:layout_constraintTop_toBottomOf="@+id/decription" />
+
+    <TextView
+        android:id="@+id/loantypedescrition"
+        android:layout_width="355dp"
+        android:layout_height="146dp"
+        android:layout_marginTop="36dp"
+        android:text=""
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="@+id/decription"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/decription"
+        app:layout_constraintTop_toBottomOf="@+id/loaninformationspinner" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

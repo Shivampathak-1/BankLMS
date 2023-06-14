@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/loancalcbg"
+    tools:context=".FAQ">
+
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="15dp"
+                android:layout_marginTop="60dp"
+                android:text="FAQ's"
+                android:textAlignment="center"
+
+                android:textColor="@color/black"
+                android:textSize="40dp"
+                android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.051"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:onClick="Expand1"
+        app:contentPadding="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="40dp"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="#F4DC43"
+        app:cardElevation="10dp">
+        
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/layou1"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/whatIsLms"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What is Bank LMS?"
+                android:textSize="24dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/lmsdetails"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/LMS_Details"
+                android:textColor="#0340DC"
+                android:textSize="18dp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:onClick="Expand2"
+        app:contentPadding="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="#F4DC43"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/layou2"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/whyLMS"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What are the aims of loan management system?"
+                android:textSize="24dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/lmsdetails2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/LMS_Aim"
+                android:textColor="#0340DC"
+                android:textSize="18dp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:onClick="Expand3"
+        app:contentPadding="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="#F4DC43"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/layou3"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/LMSprovides"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="What are the benefits of using Bank LMS"
+                android:textSize="24dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/lmsdetails3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/LMS_Benefits"
+                android:textColor="#0340DC"
+                android:textSize="18dp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="320dp"
+        android:layout_height="wrap_content"
+        android:onClick="Expand4"
+        app:contentPadding="5dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        app:cardCornerRadius="20dp"
+        android:backgroundTint="#F4DC43"
+        app:cardElevation="10dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/layou4"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/LMSprovides1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="How to apply for loan?"
+                android:textSize="24dp"
+                android:textColor="@color/black"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/lmsdetails4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/LMS_Howtoapplyloan"
+                android:textColor="#0340DC"
+                android:textSize="18dp"
+                android:visibility="gone"/>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>

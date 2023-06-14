@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Banklms</string>
+    <string name="open">Open</string>
+    <string name="close">Close</string>
+    <string name="LMS_Howtoapplyloan">Click on Apply for loan button and fill the given details and clack on "Apply" button.</string>
+    <string name="LMS_Benefits">User can calculate EMI and according to that he can compare with his salary and can check he is capable of paying that EMI.</string>
+    <string name="LMS_Aim">The primary purpose of Loan Management Software is to automate the workflow of a lending agency or bank. This includes but is not limited to maintaining compliance and preventing human error during loan processing</string>
+    <string name="LMS_Details">Loan management systems help automate the entire loan lifecycle. Depending on requirements, these programs can assist in part or whole. The software can help with processing customer information, create new loans, and more. They can also provide lenders with accurate statements and reports.</string>
+</resources>

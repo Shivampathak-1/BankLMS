@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group>
+    <item android:id="@+id/menu_home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"
+        />
+
+    <item android:id="@+id/menu_setting"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Settings"/>
+
+    <item android:id="@+id/menu_LogOut"
+        android:icon="@drawable/ic_baseline_power_settings_new_24"
+        android:title="LogOut"/>
+
+    <item android:title=""/>
+    <item android:title=""/>
+    <item android:title=""/>
+    <item android:title=""/>
+    <item android:title=""/>
+    <item android:title=""/>
+    <item android:title=""/>
+    <item android:title=""/>
+    <item android:title=""/>
+    <item android:title=""/>
+    <item android:title=""/>
+
+    </group>
+
+    <item android:id="@+id/aboutus"
+        android:title="Powered by @BNS coders" />
+
+
+</menu>
